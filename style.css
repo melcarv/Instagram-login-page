@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 56%;
     height: 100vh;
 }
 
@@ -44,8 +44,8 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
-    min-height: 34rem;
+    width: 40%;
+    min-height: 40.5rem;
 }
 
 .group {
@@ -64,7 +64,8 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 3.5rem;
+    margin: 22px auto 12px;
 }
 
 .profile-photo {
@@ -73,6 +74,7 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin: 10px;
 }
 
 .profile-photo img {
@@ -82,18 +84,22 @@ body {
 .instagram-login {
     background-color: #0095f6;
     color: #ffffff;
-    padding: 8px;
+    padding: 5px 25px;
     border-radius: 4px;
+    margin: 16px;
+    font-weight: 500;
 }
 
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+    font-weight: 500;
 }
 
 
 .link-blue {
     color: #0095f6;
+    font-weight: 500;
 }
 
 .get-the-app {
@@ -103,6 +109,10 @@ body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+}
+
+.get-app {
+    margin-bottom: 8px;
 }
 
 .download {
@@ -115,7 +125,7 @@ body {
 
 .app-download {
     height: 3rem;
-    width: 10rem;
+    width: 10.3rem;
     background-size: cover;
 }
 
@@ -162,9 +172,8 @@ body {
 
 /*
 
-Ajustar links
+
 Melhorar responsividade
-Ajustar divs
 Tornar mais semantico
 
 */
