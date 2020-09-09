@@ -7,31 +7,40 @@
 }
 
 body {
-    width: 100%;
     min-height: 100vh;
     color: #262626;
     background-color: #fafafa;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 18px;
     
 }
 
-.instagram-wrapper {
+body, .instagram-wrapper, .instagram-phone, .instagram-continue, .group, .profile-photo, .get-the-app, .download {
     display: flex;
     align-items: center;
+}
+
+body, .instagram-phone, .profile-photo, .get-the-app {
+    justify-content: center;
+}
+
+body, .group, .get-the-app, .download {
+    width: 100%;
+}
+
+.instagram-continue, .group, .get-the-app {
+    flex-direction: column;
+} 
+
+.instagram-wrapper {
     justify-content: start;
     width: 56%;
     height: 100vh;
 }
 
 .instagram-phone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 50%;
 }
 
@@ -40,21 +49,14 @@ body {
 }
 
 .instagram-continue {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
-    flex-direction: column;
     width: 40%;
     min-height: 40.5rem;
 }
 
 .group {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
     background-color: #fff;
-    width: 100%;
     padding: 1.3rem 0;
     border: 1px solid #dbdbdb;
 }
@@ -69,9 +71,6 @@ body {
 }
 
 .profile-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
     overflow: hidden;
     margin: 10px;
@@ -89,6 +88,7 @@ body {
     margin: 16px;
     font-weight: 500;
     border: none;
+    outline: 0;
 }
 
 .instagram-logout {
@@ -104,11 +104,6 @@ body {
 }
 
 .get-the-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     padding: 1.3rem 0;
 }
 
@@ -117,10 +112,7 @@ body {
 }
 
 .download {
-    display: flex;
-    width: 100%;
     justify-content: space-evenly;
-    align-items: center;
     padding: 1rem;
 }
 
@@ -172,7 +164,6 @@ body {
 
 
 /*
-
 
 Melhorar responsividade
 
