@@ -130,22 +130,35 @@ body, .group, .get-the-app, .download {
     background-image: url('./img/googleplay-button.png');
 }
 
-/* media queries */
+/* media queries */ 
 
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
-        width: 90%;
+        width: 82%;
     }
 }
 
-@media (max-width: 650px) {
-    body {
-        background-color: #ffffff;
-    }
+@media (max-width: 768px) {
 
     .instagram-wrapper {
-        width: 90%;
+        justify-content: center;
+        width: 84%;
+    }
+    
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 52%;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .instagram-wrapper {
+        width: 80%;
     }
 
     .instagram-phone {
@@ -158,13 +171,28 @@ body, .group, .get-the-app, .download {
     
     .group {
         border: 1px solid transparent;
+        background-color: #fafafa;
     }
 }
 
+@media (max-width: 376px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
 
+@media (max-width: 320px) {
 
-/*
+    .instagram-wrapper {
+        width: 100%;
+    }
 
-Melhorar responsividade
+    .instagram-phone {
+        display: none;
+    }
 
-*/
+    .group {
+        border: 1px solid transparent;
+        background-color: #fafafa;
+    }
+}
